@@ -34,7 +34,13 @@ export default function CanvasSelector(props) {
       </Button>
       {props.fileName}
       <Button variant="contained" endIcon={<AddIcon />}>
-        Add Text
+        Add Name
+      </Button>
+      <Button variant="contained" endIcon={<AddIcon />}>
+        Add Address
+      </Button>
+      <Button variant="contained" endIcon={<AddIcon />}>
+        Add Date
       </Button>
     </FormGroup>
   );
